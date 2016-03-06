@@ -41,6 +41,21 @@ h4 {
     color: #575757;
 }
 
+h5 {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffe700;
+    position: absolute;
+    left: 0;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transform: rotate(-90deg);
+}
+
 
 /* NAV ============================== */
 nav {
@@ -171,7 +186,6 @@ article ol {
     border-radius: 2px;
     margin-bottom: 2px;
     font-family: 'Source Sans Pro', sans-serif;
-    
 }
 
 .how_sec li span {
@@ -217,7 +231,10 @@ span{
     background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}
 
+.post3 {
+    border-color: #ffe700;
 }
 
 footer {

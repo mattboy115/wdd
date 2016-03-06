@@ -39,11 +39,11 @@
 	==========================================================-->
 	<article class="post1">
 		<img src="images/dropdown.jpg" alt="dropdown"/>
-		<h3>Dropdown Nav Bars</h3>
+		<h3>Nav Bar with Dropdown Menus</h3>
 		<section>
 			<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
 			<p>
-				I have always had a lot of trouble with nav bars. They would never format right and I'd have a lot of trouble with their margins and padding and end up with a really messed up piece of garpage. I'd have to start over. Then when I started trying to make them with dropdowns using CSS it only got worse because then the dropdowns wouldn't work and when I got them to work, it wouldn't be possitioned right. I had to use my own tricks to get those things to work right. Then I learned how to use jQuery to make even better dropdowns a lot easier. But now I am hoping to unlearn all the bad practices I was using before.
+				I hope to have a better understanding of the use of floats in a large number of objects and how to apply clearfixes. I've had a lot of problems with that.
 			</p>
 		</section>
 		<section>
@@ -105,33 +105,38 @@
 	<!-- Article #3
 	=============================================
 	=============================================-->
-	<article class="post2">
-		<img src="images/table.png" alt="table"/>
-		<h3>Tables</h3>
+	<article class="post3">
+		<h5>Featured</h5>
+		<img src="images/responsive_list.png" alt="list"/>
+		<h3>Responsive Features List</h3>
 		<section>
 			<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
 			<p>
-				I can make tables but I've always had problems with sizing the cells. I could never decide if I should size the table itself or just leave the table's size out of it and just size the cells and let it fall into place. It especially became hard for responsive design. I hope to clear all that up.
+				The dreaded clearfix. Clearfix is difficult in Bootstrap but in handwritten code it's even worse. I even noticed the instructor's version of this component wasn't perfect and needs a clearfix at a certain breakpoint.
 			</p>
 		</section>
 		<section>
 			<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
 			<p>
-				Tables aren't used nearly as much as they used to be in WDD. HTML and CSS used to be really underdeveloped and tables were the only option sometimes. But they're still used today in certain situations. Like when you need to make an actual table on your page for a schedule or something.
+				A great deal of sites have componenets like this. It's usually for features or staff members. It changes a lot for different breakpoints in a responsive website.
 			</p>
 		</section>
 		<section class="how_sec">
 			<h4>How I Would Build This</h4>
 			<ol>
-				<li><span>1</span>Start with a <code>&#60;table&#62;</code> tag.</li>
+				<li><span>1</span>Start with a containing <code>&#60;div&#62;</code> or <code>&#60;section&#62;</code> tag.</li>
 
-				<li><span>2</span>Add some <code>&#60;tr&#62;</code> inside the <code>&#60;table&#62;</code> for however many rows you want in your table.</li>
+				<li><span>2</span>Add some <code>&#60;div&#62;</code>s inside the <code>&#60;section&#62;</code> to contain each feature.</li>
 
-				<li><span>3</span>Inside each <code>&#60;tr&#62;</code> add <code>&#60;td&#62;</code> or <code>&#60;th&#62;</code> tags for each column in your table.<code>&#60;td&#62;</code> is data cells and <code>&#60;th&#62;</code> are heading cells.</li>
+				<li><span>3</span>Inside each <code>&#60;div&#62;</code> add an <code>&#60;img&#62;</code> and an <code>&#60;h?&#62;</code> tag for a header and finally a <code>&#60;p&#62;</code> for the description.</li>
 			</ol>
+			<h4>How I would style this</h4>
+			<p style="margin-bottom: 15px;">
+				I would
+			</p>
 		</section>
 		<ul class="buttons">
-			<li><a href="components/2/component.html">My Component</a></li>
+			<li><a href="components/3/component.html">My Component</a></li>
 		</ul>
 	</article>
 	<footer>&copy; Matt Lee Web and Graphic Works 2016.</footer>
