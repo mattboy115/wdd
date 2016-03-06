@@ -16,90 +16,126 @@
 			<a href="index.html"><img src="images/nav_pic.png" alt="Nav Picture" /></a>
 			<ul>
 				<li><a href="#blog">Blog</a></li><!-- space
-			--><li><a href="#">About</a></li><!-- space
+				--><li><a href="#">About</a></li><!-- space
 			--><li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-		<h1>Works of Matt Lee</h1>
-		<div class="about">
-			<img src="images/matt.png" alt="matt"/>
-			<p class="intro">
-				Hello, my name is Matt. I enjoy developing web pages. Especially when it presents a challenge to me or makes me do something I've never done before. I'm always open to new experiences and concepts. This site is my way of showing what I have learned and what I need help with.
-			</p>
-		</div>
-	</header>
-	<!-- About -->
+		</ul>
+	</nav>
+	<h1>Works of Matt Lee</h1>
+	<div class="about">
+		<img src="images/matt.png" alt="matt"/>
+		<p class="intro">
+			Hello, my name is Matt. I enjoy developing web pages. Especially when it presents a challenge to me or makes me do something I've never done before. I'm always open to new experiences and concepts. This site is my way of showing what I have learned and what I need help with.
+		</p>
+	</div>
+</header>
+<!-- About -->
 
-	<!-- Blog, Components -->
-	<div id="blog" class="wrapper">
+<!-- Blog, Components -->
+<div id="blog" class="wrapper">
 	<h2>Blog of Components</h2>
 
-<!-- Article #1
-==========================================================
-==========================================================-->
-		<article class="post1">
-			<img src="images/dropdown.png" alt="dropdown"/>
-			<h3>Dropdown Nav Bars</h3>
-			<section>
-				<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
-				<p>
-					I have always had a lot of trouble with nav bars. They would never format right and I'd have a lot of trouble with their margins and padding and end up with a really messed up piece of garpage. I'd have to start over. Then when I started trying to make them with dropdowns using CSS it only got worse because then the dropdowns wouldn't work and when I got them to work, it wouldn't be possitioned right. I had to use my own tricks to get those things to work right. Then I learned how to use jQuery to make even better dropdowns a lot easier. But now I am hoping to unlearn all the bad practices I was using before.
-				</p>
-			</section>
-			<section>
-				<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
-				<p>
-					Adding dropdowns to a navigation menu has a great deal to do with WDD. A navigation bar is the user's main way to get around a website. Adding expanding menues also expands the user's options as far as places they can get to from where they are.
-				</p>
-			</section>
-			<section class="how_sec">
-				<h4>How I Would Build This</h4>
-				<ol>
-					<li><span>1</span>Start with a <code>&#60;nav&#62;</code> tag.</li>
-					<li><span>2</span>Add a <code>&#60;ul&#62;</code> inside the <code>&#60;nav&#62;</code> and remove  the <code>list-stlye-type</code>.</li>
-					<li><span>3</span>Inside the <code>&#60;ul&#62;</code> add a <code>&#60;li&#62;</code> tag for each menu item and use styling to make them <code>inline-block</code>.</li>
-					<li><span>4</span>Nest another <code>&#60;ul&#62;</code> inside each menu item that should have a dropdown.</li>
-					<li><span>5</span>Use pseudo classes in your stylesheet to make the sub <code>&#60;ul&#62;</code> appear when the <code>&#60;li&#62;</code> are hovered over.</li>
-				</ol>
-			</section>
-			<ul class="buttons">
-				<li><a href="components/1/component.html">My Component</a></li>
-			</ul>
-		</article>
-<!-- Article #2
-=============================================
-=============================================-->
-		<article class="post2">
-			<img src="images/table.png" alt="table"/>
-			<h3>Tables</h3>
-			<section>
-				<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
-				<p>
-					I can make tables but I've always had problems with sizing the cells. I could never decide if I should size the table itself or just leave the table's size out of it and just size the cells and let it fall into place. It especially became hard for responsive design. I hope to clear all that up.
-				</p>
-			</section>
-			<section>
-				<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
-				<p>
-					Tables aren't used nearly as much as they used to be in WDD. HTML and CSS used to be really underdeveloped and tables were the only option sometimes. But they're still used today in certain situations. Like when you need to make an actual table on your page for a schedule or something.
-				</p>
-			</section>
-			<section class="how_sec">
-				<h4>How I Would Build This</h4>
-				<ol>
-					<li><span>1</span>Start with a <code>&#60;table&#62;</code> tag.</li>
+	<!-- Article #1
+	==========================================================
+	==========================================================-->
+	<article class="post1">
+		<img src="images/dropdown.jpg" alt="dropdown"/>
+		<h3>Dropdown Nav Bars</h3>
+		<section>
+			<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
+			<p>
+				I have always had a lot of trouble with nav bars. They would never format right and I'd have a lot of trouble with their margins and padding and end up with a really messed up piece of garpage. I'd have to start over. Then when I started trying to make them with dropdowns using CSS it only got worse because then the dropdowns wouldn't work and when I got them to work, it wouldn't be possitioned right. I had to use my own tricks to get those things to work right. Then I learned how to use jQuery to make even better dropdowns a lot easier. But now I am hoping to unlearn all the bad practices I was using before.
+			</p>
+		</section>
+		<section>
+			<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
+			<p>
+				Adding dropdowns to a navigation menu has a great deal to do with WDD. A navigation bar is the user's main way to get around a website. Adding expanding menues also expands the user's options as far as places they can get to from where they are.
+			</p>
+		</section>
+		<section class="how_sec">
+			<h4>How I Would Build This</h4>
+			<ol>
+				<li><span>1</span>Start with a <code>&#60;nav&#62;</code> tag.</li>
 
-					<li><span>2</span>Add some <code>&#60;tr&#62;</code> inside the <code>&#60;table&#62;</code> for however many rows you want in your table.</li>
+				<li><span>2</span>Add a <code>&#60;ul&#62;</code> inside the <code>&#60;nav&#62;</code> and remove  the <code>list-stlye-type</code>.</li>
 
-					<li><span>3</span>Inside each <code>&#60;tr&#62;</code> add <code>&#60;td&#62;</code> or <code>&#60;th&#62;</code> tags for each column in your table.<code>&#60;td&#62;</code> is data cells and <code>&#60;th&#62;</code> are heading cells.</li>
-				</ol>
-			</section>
-			<ul class="buttons">
-				<li><a href="components/2/component.html">My Component</a></li>
-			</ul>
-		</article>
-		<footer>&copy; Matt Lee Web and Graphic Works 2016.</footer>
-	</div>
+				<li><span>3</span>Inside the <code>&#60;ul&#62;</code> add a <code>&#60;li&#62;</code> tag for each menu item and use styling to make them <code>inline-block</code>.</li>
+
+				<li><span>4</span>Nest another <code>&#60;ul&#62;</code> inside each menu item that should have a dropdown.</li>
+
+				<li><span>5</span>Use pseudo classes in your stylesheet to make the sub <code>&#60;ul&#62;</code> appear when the <code>&#60;li&#62;</code> are hovered over.</li>
+			</ol>
+		</section>
+		<ul class="buttons">
+			<li><a href="components/1/component.html">My Component</a></li>
+		</ul>
+	</article>
+	<!-- Article #2
+	=============================================
+	=============================================-->
+	<article class="post2">
+		<img src="images/table.png" alt="table"/>
+		<h3>Tables</h3>
+		<section>
+			<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
+			<p>
+				I can make tables but I've always had problems with sizing the cells. I could never decide if I should size the table itself or just leave the table's size out of it and just size the cells and let it fall into place. It especially became hard for responsive design. I hope to clear all that up.
+			</p>
+		</section>
+		<section>
+			<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
+			<p>
+				Tables aren't used nearly as much as they used to be in WDD. HTML and CSS used to be really underdeveloped and tables were the only option sometimes. But they're still used today in certain situations. Like when you need to make an actual table on your page for a schedule or something.
+			</p>
+		</section>
+		<section class="how_sec">
+			<h4>How I Would Build This</h4>
+			<ol>
+				<li><span>1</span>Start with a <code>&#60;table&#62;</code> tag.</li>
+
+				<li><span>2</span>Add some <code>&#60;tr&#62;</code> inside the <code>&#60;table&#62;</code> for however many rows you want in your table.</li>
+
+				<li><span>3</span>Inside each <code>&#60;tr&#62;</code> add <code>&#60;td&#62;</code> or <code>&#60;th&#62;</code> tags for each column in your table.<code>&#60;td&#62;</code> is data cells and <code>&#60;th&#62;</code> are heading cells.</li>
+			</ol>
+		</section>
+		<ul class="buttons">
+			<li><a href="components/2/component.html">My Component</a></li>
+		</ul>
+	</article>
+	<!-- Article #3
+	=============================================
+	=============================================-->
+	<article class="post2">
+		<img src="images/table.png" alt="table"/>
+		<h3>Tables</h3>
+		<section>
+			<h4>WHAT I HOPE TO PRACTICE/LEARN</h4>
+			<p>
+				I can make tables but I've always had problems with sizing the cells. I could never decide if I should size the table itself or just leave the table's size out of it and just size the cells and let it fall into place. It especially became hard for responsive design. I hope to clear all that up.
+			</p>
+		</section>
+		<section>
+			<h4>HOW THIS RELATES TO WHAT I HAVE/WILL LEARN IN WDD.</h4>
+			<p>
+				Tables aren't used nearly as much as they used to be in WDD. HTML and CSS used to be really underdeveloped and tables were the only option sometimes. But they're still used today in certain situations. Like when you need to make an actual table on your page for a schedule or something.
+			</p>
+		</section>
+		<section class="how_sec">
+			<h4>How I Would Build This</h4>
+			<ol>
+				<li><span>1</span>Start with a <code>&#60;table&#62;</code> tag.</li>
+
+				<li><span>2</span>Add some <code>&#60;tr&#62;</code> inside the <code>&#60;table&#62;</code> for however many rows you want in your table.</li>
+
+				<li><span>3</span>Inside each <code>&#60;tr&#62;</code> add <code>&#60;td&#62;</code> or <code>&#60;th&#62;</code> tags for each column in your table.<code>&#60;td&#62;</code> is data cells and <code>&#60;th&#62;</code> are heading cells.</li>
+			</ol>
+		</section>
+		<ul class="buttons">
+			<li><a href="components/2/component.html">My Component</a></li>
+		</ul>
+	</article>
+	<footer>&copy; Matt Lee Web and Graphic Works 2016.</footer>
+</div>
 
 </body>
 </html>
