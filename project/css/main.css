@@ -166,6 +166,7 @@ article ol {
     padding: 10px;
     list-style-type: none;
     color: white;
+    border-radius: 2px;
     margin-bottom: 2px;
 }
 
