@@ -1,0 +1,17 @@
+I have selected the use of <div>, <section>, and <article> as my subject. I chose this because I still didn't fully understand what <section> and <article> tags are for. I have used section tags before in Designing for Web Stanards I. It was vaguely explained what they were for but it was never brought into real detail.
+
+We all know that a <div> is the generic container with a number of purposes. It can be used for decoration or to contain elements or a mixture of the two. It can be resized and you can add colors, gradients, borders, background images, and more.
+
+A <section> element is just like a <div> but with a few extra rules about the way it should be used. A section groups together related information that could be part of a bigger colletion. If there is a section, there should be multiple sections to go with it. A <section> should always have a heading as well (h2, h3 and so on).
+
+An <article> tag is a lot like a <section> tag except that <article>s can be nested inside each other such as comments in <article> tags inside an actual article. You can use <section> tags to section off smaller parts of an article into sections, each of which have their own heading.
+
+I've become acustomed to just using a <div> in the place where these more advanced symantic tags should be used. They were taught about in the first Web Standards class but we weren't encouraged to research them in any kind of detail. I am happy to have done some more research on them and will try to use them whenever possible. You will find them in my project this month definintely.
+
+
+Sources:
+http://html5doctor.com/the-article-element/
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+
+http://www.w3schools.com/tags/tag_article.asp
