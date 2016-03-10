@@ -1,4 +1,39 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
+nav {
+    margin-top: 20px;
+    padding: 2px;
+    background-color: #222222;
+    background-image: url(images/background.png);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
+ul {
+}
+
+li {
+    display: inline-block;
+    padding: 40px;
+    background-color: #4d4d4d;
+    border-top: #666666 solid 2px;
+    border-left: #666666 solid 2px;
+    margin-right: -2px;
+}
+
+ul li:first-child {
+    border-top-left-radius: 5px;
+}
+
+ul li:last-child {
+    border-top-right-radius: 5px;
+}
+
+li a {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 3px black;
+}

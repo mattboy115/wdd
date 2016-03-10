@@ -150,7 +150,7 @@ header {
     margin-top: 100vh;
 	background-color: #222;
     z-index: 1000;
-    border-top: solid 3px rgba(0, 0, 0, 0.5);
+    border-top: solid 3px #888;
 }
 
 article {
@@ -186,6 +186,12 @@ article ol {
     border-radius: 2px;
     margin-bottom: 2px;
     font-family: 'Source Sans Pro', sans-serif;
+    transition: 600ms;
+}
+
+.how_sec li:hover {
+    background-color: #444;
+    transition: 600ms;
 }
 
 .how_sec li span {
