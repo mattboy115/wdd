@@ -2,12 +2,15 @@
 ============================================================
 ============================================================*/
 nav {
-    margin-top: 20px;
-    padding: 2px;
+    border: #444444 solid 1px;
     background-color: #222222;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
     background-image: url(images/background.png);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+
 }
 
 ul {
@@ -15,12 +18,19 @@ ul {
 
 li {
     display: inline-block;
-    padding: 40px;
+    padding: 10px;
+    padding-left: 2.175%;
+    padding-right: 2.175%;
     background-color: #4d4d4d;
     background-image: url(images/background.png);
-    border-top: #666666 solid 2px;
-    border-left: #666666 solid 2px;
+    border-top: #888888 solid 1px;
+    border-left: #888888 solid 1px;
     margin-right: -2px;
+    border-bottom: 10px solid #7f7f7f;
+}
+
+li:hover {
+    background-color:#616161;
 }
 
 ul li:first-child {
@@ -33,7 +43,7 @@ ul li:last-child {
 
 li a {
     font-family: 'Lato', sans-serif;
-    letter-spacing: 1.1px;
+    letter-spacing: .8px;
     color: white;
     font-size: 0.8em;
     text-shadow: 1px 1px 3px black;
