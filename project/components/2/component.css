@@ -1,4 +1,39 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
 
+body {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+}
+
+tr:nth-child(odd) td {
+    background-color: #d4d4d4;
+}
+
+td:nth-child(5), td:nth-child(6) {
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    vertical-align: middle;
+    color: #444;
+}
+
+th,td {
+    padding-left: 20px;
+    width: 168px;
+}

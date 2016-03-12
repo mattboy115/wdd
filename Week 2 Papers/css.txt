@@ -1,0 +1,19 @@
+Positioning
+
+CSS has four position property values.
+
+Static
+Relative
+Fixed
+Absolute
+
+This is a subject that I've been shakey on for a while. While I know the basic idea of what some of these are, it was still really vague. But now that I've done a little bit of research I have a better idea of what they are for.
+
+Static - This value sets an element to its default position value and is positioned with the normal flow of the page. It's best used to reset positioning on an element.
+
+Relative - This value positions an element relative to its normal position. Use top, right, bottom and left properties to move it. 
+
+Fixed - This value fixes an element in one place on a page so that when the user scrolls, the element doesn't move. This is really useful for header backgrounds, fixed nav bars and sticky footers. You can use top, bottom, left, or right to position where it stays on the page once it's fixed.
+
+Absolute - Here is the big one. This one I was very unclear about but finally figured it out by experience. An absolute positioned element is positioned relative to the first parent element that has been positioned. For instance, say a parent div has been positioned relative, then the child element has been positioned absolute. It can then be moved about the parent element. This is really useful for things like dropdown navigation menus.
+
