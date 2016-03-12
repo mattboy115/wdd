@@ -14,15 +14,14 @@ nav {
 }
 
 ul {
+    width: 100%;
 }
 
 nav ul li {
     display: inline-block;
     padding: 10px;
-    padding-left: 2.175%;
-    padding-right: 2.175%;
-    -moz-padding-left: 2.160%;
-    -moz-padding-right: 2.160%;
+    padding-left: 2.173%;
+    padding-right: 2.173%;
     background-color: #4d4d4d;
     background-image: url(images/background.png);
     border-top: #888888 solid 1px;
