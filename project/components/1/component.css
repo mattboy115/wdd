@@ -21,6 +21,8 @@ nav ul li {
     padding: 10px;
     padding-left: 2.175%;
     padding-right: 2.175%;
+    -moz-padding-left: 2.170%;
+    -moz-padding-right: 2.170%;
     background-color: #4d4d4d;
     background-image: url(images/background.png);
     border-top: #888888 solid 1px;
