@@ -16,7 +16,7 @@ nav {
 ul {
 }
 
-li {
+nav ul li {
     display: inline-block;
     padding: 10px;
     padding-left: 2.175%;
@@ -47,4 +47,27 @@ li a {
     color: white;
     font-size: 0.8em;
     text-shadow: 1px 1px 3px black;
+}
+
+.sub {
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 469px;
+    display: none;
+    padding: 10px;
+    background-color: #4d4d4d;
+    background-image: url(images/background.png);
+
+
+}
+
+li:hover .sub {
+    display: block;
+}
+
+.sub li {
+    display: block;
+    border: none;
+    border-radius: none;
 }
