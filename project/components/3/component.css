@@ -1,4 +1,47 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
 
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+section {
+    display: inline-block;
+    width: 200px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 100%;
+    border: 5px orange solid;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 510px) {
+    section {
+        width: 90%;
+
+    }
+    img {
+        width: 29%;
+    }
+
+    div {
+        text-align: left;
+        width: 69%;
+    }
+
+    img,div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
