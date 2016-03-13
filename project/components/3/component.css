@@ -11,6 +11,7 @@ body {
 
 section {
     display: inline-block;
+    vertical-align: top;
     width: 200px;
     margin-left: 4.5%;
     margin-right: 4.5%;
@@ -19,7 +20,7 @@ section {
 
 img {
     border-radius: 100%;
-    border: 5px orange solid;
+    border: 7px orange solid;
 }
 
 h3 {

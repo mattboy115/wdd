@@ -1,4 +1,64 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
 
+footer {
+    background-color: #333333;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    border-top: 3px solid #cf4227;
+    width: 92%;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: .86em;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+section {
+    margin-left: 10.5%;
+    width: 200px;
+}
+
+section img {
+    border: 5px #cf4227 solid;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #cf4227;
+}
+
+nav, section {
+    display: inline-block;
+}
+
+nav {
+    margin-left: 4%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 7px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #222;
+    width: 195px;
+}
+
+li a {
+    color: white;
+    font-size: .75em;
+}
