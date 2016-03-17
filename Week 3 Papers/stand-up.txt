@@ -1,0 +1,5 @@
+1. Since my last stand-up I created 5 components for my project. Not all of them came out how I wanted. The first one still hasn't been styled properly. I hope to finish it this week. The fifth one still doesn't have the right jQuery to work the way I want it to. But I think I did a lot last week. I've gotten quite a bit of feedback from the instuctor about my components in his review video and I will put those things to work.
+
+2.I hope to use the advice given to me in the video and then post my project for you students to evaluate as well and then use your feedback to help me as well.
+
+3. Slack is the best place to share your projects for others to evaluate. But not a whole lot of the students in the class have joined the Slack group. And those who have rarely look at it. If nobody is using our best resource for communication, then things become a lot harder.

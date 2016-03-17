@@ -1,0 +1,8 @@
+I've learned a lot over the past couple weeks. I've learned about the four position attributes, I'm more comfortable with making tables, I've got some new things to try when making a responsive features list, and making a footer with lists in it. I've learned a much better way to make an accordion componenet, though it still needs some work. 
+
+By the way, if anyone knows how to help me with it, please let me know and wen can talk in the Slack about it. I'm still having trouble with the jQuery, making the plus and minus buttons switch back and forth upon opening and closing the items. Also the color changing for the headings.
+
+Well, anyway, here is my project. Take a look and tell me what you think. Thanks a lot!
+
+http://mattboy115.github.io/wdd/project/index.html
+
