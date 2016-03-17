@@ -21,7 +21,7 @@ dd {
     position: relative;
     height: 0;
     overflow: hidden;
-    transition: height 1s;
+    transition: all ease-in-out 0.5s;
 }
 
 dt:target {
@@ -31,7 +31,7 @@ dt:target {
 dt:target + dd {
     height: 180px;
     padding: 15px;
-    transition: height 1s;
+    transition: all ease-in-out 0.5s;
 }
 
 dt {
@@ -58,9 +58,9 @@ dt::after {
     height: 25px;
 }
 
-dd::before {
+dt:target::after {
     position: absolute;
-    top: -41px;
+    top: 14px;
     right: 15px;
     display: block;
     content: url(../../images/accordion/minus.png);
