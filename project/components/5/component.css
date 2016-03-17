@@ -57,7 +57,7 @@ dt::after {
 
 dd::before {
     position: absolute;
-    top: -39px;
+    top: -40px;
     right: 15px;
     display: block;
     content: url(../../images/accordion/minus.png);
