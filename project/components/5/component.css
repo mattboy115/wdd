@@ -26,6 +26,7 @@ dd {
 
 dt:target {
     background-color: #555;
+    transition: all ease-in-out 0.5s;
 }
 
 dt:target + dd {
