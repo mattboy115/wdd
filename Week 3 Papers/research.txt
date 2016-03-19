@@ -1,0 +1,5 @@
+Box-model is something I'd heard of but didn't know much about. I thought it was something really advanced but it's so basic and would have come in handy on so many occasions if I had known about it.
+
+There are two main Box-model values: 
+
+Border-box: 
