@@ -1,0 +1,5 @@
+1. My most recent research was about box models and how it can mean the difference in size of elements. I've also done a complete overhaul on my accordion element and fixed a lot of things about my nav bar. I am learning a lot about using :target in my css to make things happen. Then I provided feedback for my peers in the duscussion board.
+
+2. This week I will accept more feedback from my peers and make adjustments accordingly. My goals haven't changed much from last week because the assignment is about the same.  
+
+3. I don't see much that would stand in my way. There tends to be a lack of communication in this group, especially in the Slack but other than that this week should go smoothly.

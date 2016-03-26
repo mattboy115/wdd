@@ -2,4 +2,12 @@ Box-model is something I'd heard of but didn't know much about. I thought it was
 
 There are two main Box-model values: 
 
-Border-box: 
+Border-box: When your box-sizing value is set to this height, width, padding and border all factor into the initial hight and width. Meaning if your element was 400px wide and you added a padding of 10 on each side, your element is now 420px counting for the padding and the width added together.
+
+Content-box: An element with the value of content-box stays at its set hight and width, regardless of anything else added to the element. Padding will only move the contained elements around inside the parent element but won't change its size at all. The same with border as well. It will only add to the inside.
+
+There have been so many times when an element has changed size because I added padding to just move the elements inside it. It always frustrated me and made me have to subtract padding on the other side of the element to stop this from happening. Now that I know these exist, that's just one more thing making development that much easier.
+
+
+
+Sources: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing

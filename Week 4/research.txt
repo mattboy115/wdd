@@ -1,0 +1,11 @@
+My current understanding of web standards is passable now. I know to use the proper html tags instead of just using divs all the time when I'm not sure of something. I can just use advanced selectors in my css rather than using ID's. It's more for my brain to go through but at least I'm not using more markup than I need.
+
+The biggest example of my growth and knowlege of web standards is my accordion component. It was so riddled with problems and imporoper use of tags. I was trying to use jQuery for all the transitions but was having a hard time getting those things to work. After getting help from Mr. Bloom, it's now a model of proper sintax, using a description list instead of an unordered list, h3s, and divs.
+
+A lot of things have been brought to my attention by the teacher and my peers. Some of which I still need to attend to but for the most part are as good as done.
+
+Research Topic
+
+Sass stands for Syntactically Awesome Style Sheets. The best way to describe Sass is the way it's described on the website: "CSS with superpowers." And I would agree with that. Sass is a great extension to CSS. I've used it before. It takes some getting used to if you've only used regular CSS before.
+
+Sass has many features that set it apart from CSS. You can set variables and call those variables for different things. You can nest css code inside other css code. You can import smaller pages of css into a larger Sass page. Also you can use the @extend feature to extend the properties of one element to other ones. And last, you can use operators in Sass. 

@@ -15,7 +15,9 @@ nav {
 
 }
 
-ul {
+body > a {
+    font-size: 30px;
+    font-family: arial;
 }
 
 nav ul li {
@@ -55,14 +57,13 @@ li a {
 hr {
     display: block;
     border: 0;
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #888;
+
     margin: 1em 0;
     padding: 0;
     margin: 0;
 }
 
-.sub {
+nav ul li ul {
     box-shadow: inset 0 5px 8px -5px rgba(0,0,0,1);
     position: absolute;
     margin: 0;
@@ -81,25 +82,35 @@ hr {
 
 }
 
-li:hover .sub {
+li:hover ul{
     display: block;
 }
 
-.sub li {
+nav ul li ul li {
     display: block;
     border: none;
-    border-radius: none;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #222;
     margin: 0;
 }
 
-.sub li:hover {
+nav ul li ul li:last-child {
+    border-bottom: none;
+    border-top-right-radius: 0;
+}
+
+nav ul li ul li:first-child {
+    border-top: none;
+}
+
+nav ul li ul li:hover {
     background-color: #333333;
 }
 
-.sub li a {
+nav ul li ul li a {
     color: #ccc;
 }
 
-.sub li a:hover {
+nav ul li ul li a:hover {
     color: #fff;
 }
